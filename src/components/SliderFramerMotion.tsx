@@ -4,7 +4,7 @@ import { TrashIcon } from "@heroicons/react/24/outline";
 
 export const SliderFramerMotion = () => {
   const motionX = useMotionValue(0);
-  const x = useSpring(motionX, { stiffness: 400, damping: 20 });
+  const x = useSpring(motionX, { stiffness: 200, damping: 20 });
 
   x.on("change", () => {
     if (x.get() <= -100) {
