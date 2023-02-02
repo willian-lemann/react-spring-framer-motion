@@ -54,6 +54,7 @@ export function Slider() {
       >
         <TrashIcon className="h-10 w-10" />
       </animated.div>
+
       <animated.div
         style={{ x, scale }}
         className={`absolute cursor-pointer w-[300px] h-[65px]  bg-purple-700 flex items-center justify-center rounded-md`}
