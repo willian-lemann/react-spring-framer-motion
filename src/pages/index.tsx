@@ -1,3 +1,4 @@
+import { Button } from "../components/Button";
 import { Slider } from "../components/Slider";
 import { SliderFramerMotion } from "../components/SliderFramerMotion";
 import { Square } from "../components/Square";
@@ -15,6 +16,10 @@ export default function Home() {
 
       <div>
         <Square />
+      </div>
+
+      <div>
+        <Button />
       </div>
     </div>
   );
