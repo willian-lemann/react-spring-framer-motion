@@ -1,5 +1,3 @@
-# Next.js + Tailwind CSS Example
-
 This is a simple page project just to show, the differences between framer motion and react-spring
 
 ## How to use
